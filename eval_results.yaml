@@ -1,5 +1,5 @@
 - dataset:
-    id: cais/hle                  # Required. A valid dataset id from the Hub, which should have a "Benchmark" tag.
+    id: qubuhub/web4app                  # Required. A valid dataset id from the Hub, which should have a "Benchmark" tag.
                                   # ^Basically, this is where the leaderboard lives.
     task_id: {task_id}            # Optional, in case there are multiple tasks or leaderboards for this dataset.
                                   # It is defined in the benchmark dataset's eval.yaml file. Example: gpqa_diamond
