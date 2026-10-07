@@ -1,6 +1,10 @@
-# hub-docs
+# hudocs
 
-This repository regroups documentation and information that is hosted on the Hugging Face website.
+```bash
+pip install cat-readme
+cat-readme [README_FILE]
+```
+This repository regroups documentation and information that is hosted on the  website.
 
 
 ### How to contribute to the docs
@@ -14,7 +18,7 @@ For simple edits, you don't need a local build environment.
 
 ```bash
 # install doc-builder (if not done already)
-pip install hf-doc-builder
+pip install hf-doc-builder cat-readme [README_FILE]
 
 # you may also need to install some extra dependencies
 pip install black watchdog
